@@ -1,0 +1,11 @@
+Description.
+
+Need to design a circuit for a simple Dice Game.
+
+GAME INSTRUCTIONS
+
+User will roll a dice and the value on top of dice will be saved. Now user will repeat this process and value is saved . Then both values are compared. If both values are same, User wins . Otherwise User Looses.
+
+Algorithm
+
+We can use a counter to count from 1 to 6 and will be enable the counter as the user pushes the button and stop it when user remove finger from the button. This how we will be able to generate a pseudo random number from 1 to 6. Number will be saved and repeated again. At last, two saved values will be compared and result will be shown.  

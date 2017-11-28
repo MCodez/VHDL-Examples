@@ -1,0 +1,11 @@
+Description.
+
+Need to design a circuit for a simple Dice Game.
+
+GAME INSTRUCTIONS
+
+User will roll the die and the sum of values on top of the die will be compared with 2,6 and 8. If sum is eqaul to these three values, User wins. Otherwise sum is compared with 3,7 and 9. If sum is eqaul to these three values, User looses. Otherwise store the sum. Roll the die again. If sum is equal to the saved sum, User wins, Else if new sum is equal to 2,6 or 8 then User looses.Else the latter case will be repeated again till User either wins or looses.
+
+Algorithm
+
+We will use a counter which will count from 2 to 12. Accordingly , we will compare the counter value generated pseudo randomly and follow the statement stated above. And finally show the result. 

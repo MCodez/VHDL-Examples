@@ -1,0 +1,9 @@
+Description.
+
+Need to design a circuit to remove Debouncing state of a On/Off Switch. 
+
+Code assumes a Active Low Switch. i.e. When we will press switch , output will be Low.
+
+Algorithm
+
+Two flip flops in series. F1 & F2. F1 is a D flip flop whose input is connected to Switch output. F2 is a D flip flop with input connected to output of F1. Output of both F1 and F2 are xored and added to clear pin of Counter. 
